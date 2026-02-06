@@ -1,0 +1,16 @@
+{
+  "name": "liftcom-relay",
+  "version": "1.0.0",
+  "description": "LiftCom voice relay - WebSocket server for PTT audio and presence",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2"
+  }
+}
